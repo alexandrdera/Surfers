@@ -1,0 +1,421 @@
+html{
+	font-size: 16px;
+	font-family: "Montserrat", sans-serif;
+} 
+
+body{
+	margin: 0;	
+	padding: 0;
+}
+
+.container{
+	width: 73.125rem; /*1170px;*/
+	/*border: 1px solid black; */
+	margin: 0 auto;
+}
+
+header{
+	background: url(../img/Hero.png) no-repeat center top /*/ cover*/;
+--	height: 100vh;
+}
+
+section{
+--	height: 100vh;
+--	width: 100vw;
+}
+
+footer{	
+--	height: 100vh;
+	width: 100vw;
+}
+
+.heading{
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.heading__logo{
+	float: left;
+	margin-top: 2.125rem; /*34px;*/
+	font-size: 1.875rem; /*30px;*/
+	font-family: "Montserrat";
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: left;
+	-moz-transform: matrix( 1.12841703339145,0,0,1.1253251063501,0,0);
+	-webkit-transform: matrix( 1.12841703339145,0,0,1.1253251063501,0,0);
+	-ms-transform: matrix( 1.12841703339145,0,0,1.1253251063501,0,0);
+}
+
+nav {
+	float: none;
+}
+
+.heading__menu{
+	margin: 0 0 0 13.75rem;/*0px 0 0 220px;*/
+	padding:0;
+	display: block;
+}
+
+.heading__menu li{
+	float: left;
+	display: block;
+    margin-top: 2.5625rem; /*41px;	*/
+}
+
+.heading__menu a{
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-left: 1.5625rem;/*25px;*/
+	padding: 0.25rem 0.625rem;/*4px 10px;*/
+}
+
+.heading__menu a:hover{
+	background-color: #00b0ff;
+	color: white;
+}
+
+.heading__social-icons{
+	float: right;
+	margin-top: 2rem; /*32px;*/
+}
+
+.titles{
+	text-align: center;
+	font-family: "Playfair Display";
+}
+
+.titles h1{
+	margin: 9.375rem 0 0 0; /*150px 0 0 0;*/
+	font-size: 3.125rem; /*50px;*/
+	color: rgb(0, 0, 0);
+}
+
+.titles h3{
+	margin: 0;
+	font-size: 1.5rem; /*24px;*/
+	color: rgb(255, 255, 255);
+	text-shadow: 0rem 0.1875rem 0.9375rem rgba(0, 0, 0, 0.64); /*0px 3px 15px rgba(0, 0, 0, 0.64);*/
+}
+
+.card-layer{
+	background: url(../img/Corner.png) no-repeat;
+    box-shadow: 0rem -0.5rem 1.875rem 0rem rgba(0, 0, 0, 0.34); /*0px -8px 30px 0px rgba(0, 0, 0, 0.34);*/
+    margin: 9.375rem auto 0; /*150px auto 0;*/
+    width: 64.375rem; /*1030px;*/
+    height: 37.5rem;	/*600px;*/
+}
+
+.card-layer__capture{
+    margin: 2.5rem 1.5625rem; /*40px 25px;*/
+	float: left;
+    height: 32.5rem; /*520px;*/
+}
+
+.card-layer__thumbs{
+	display: block;
+    width: 5rem; /*80px;*/
+    position: relative;
+    top: 9.375rem; /*150px;*/
+    float: left;
+}
+
+.card-layer__thumbs img:hover{
+  border-width: 0.1875rem; /*3px;*/
+  border-color: #00b0ff;
+}
+
+.card-layer__thumbs img{
+  border-style: solid;
+  border-width: 0.0625rem; /*1px;*/
+  border-color: #cccccc;
+  height: 4.374rem;
+}
+
+.info{
+	float: left;
+	margin: 2.5rem 0 2.5rem 2.5rem; /*40px 0 40px 40px;*/
+    display: block;
+    width: 24.375rem; /*390px;*/
+	height: 31.25rem; /*500px;*/
+}
+
+.info__title{
+	font-size: 1.25rem; /*20px;*/
+	font-family: "Montserrat";
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	line-height: 1.3;
+	text-align: left;
+    margin: 0 0 0.9375rem 0; /*0 0 15px 0;*/
+}
+
+.info__rating{
+	float: left;
+	margin-left: 0.3125rem;	/*5px;*/
+}
+
+.info__rating-counter {
+	font-size: 0.75rem; /*12px;*/
+	font-family: "Montserrat";
+	color: rgb(120, 120, 120);
+	font-weight: bold;
+	line-height: 1.2;
+	text-align: left;
+	float: left;
+	margin: 0 0 0 0.3125rem; /*0 0 0 5px;*/
+}
+
+.info__tabs{
+	margin: 2.5rem 0 0 0; /*40px 0 0 0;*/
+	display: block;
+	float: left;
+}
+
+.info__tabs ul{
+	margin: 0 0 0 0;
+	padding: 0;
+}
+
+.info__tabs li{
+	float: left;
+	display: block;	
+}
+
+.info__tabs a{
+	font-size: 0.875rem; /*14px;*/
+	font-family: "Raleway";
+	color: rgb(160, 160, 160);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: left;
+	text-decoration: none;
+	padding: 0 1.875rem 0.625rem 0; /*0 30px 10px 0;*/
+	border-bottom: #d9d9d9 0.0625rem solid; /*1px;*/
+}
+
+.info__tabs a:focus, .info__tabs a:hover {
+	padding: 0 1.875rem 0.5rem 0; /*0 30px 8px 0;*/
+	color: rgb(0, 0, 0);
+	border-bottom: #00b0ff 0.1875rem solid; /*#00b0ff 3px solid;*/
+}
+
+.info__description {
+	margin-top: 1.5625rem; /*25px;*/
+	float: left;
+	font-size: 1rem; /*16px;*/
+	font-family: "Raleway";
+	color: rgb(120, 120, 120);
+	line-height: 1.5;
+	text-align: left;
+}
+
+.info__price{
+  font-size: 1.5rem; /*24px;*/
+  font-family: "Montserrat";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  float: left;
+}
+
+.info__button {
+	background-color: rgb(0, 176, 255);
+	font-family: "Montserrat";
+	font-weight: bold;
+	font-size: 0.875rem; /*14px;*/
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1.2;
+	display: block;
+	float: left;
+	padding: 0.9375rem 1.875rem; /*15px 30px;*/
+	margin: 0.9375rem 1.875rem;/*15px 30px;*/
+}
+
+.info__link{
+	float: left;
+	font-size: 1rem; /*16px;*/
+	font-family: "Montserrat";
+	color: rgb(0, 176, 255);
+	line-height: 1.2;
+	text-align: left;
+	text-decoration: none;
+	border-bottom: #00b0ff 0.3046875rem solid; /*#00b0ff 3px solid;*/
+	margin: 4.0625rem 0 0 0; /* 65px 0 0 0;*/
+	clear: both;
+}
+
+.bar{
+	float: left;
+    margin: 0;
+    display: block;
+	width: 3.9375rem; /*63px;*/
+    height: 37.5rem; /*600px;*/
+}
+
+.bar a:first-child > img{
+	margin: 3.125rem 0 0 0; /*50px 0 0 0px;*/
+    float: right;
+}
+
+.bar a:nth-child(2) > img{
+	margin: 0 0 0 3.9375rem; /*0 0 0px 63px;*/
+}
+
+.bar p{
+	margin: 0px 0 0 0;
+    padding: 0.8125rem 0; /* 13px 0px;*/
+    background-color: black;
+    font-size: 0.875rem; /*14px;*/
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.hidden-text{
+    font-family: "Montserrat";
+    color: rgba(0, 0, 0, 0.031);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0;
+    letter-spacing: 0.75rem; /*12px;*/
+}
+
+.card__hidden-text{
+    text-align: left;
+    font-size: 7.9375rem; /*127px;*/
+    transform: rotate(270deg);
+    position: relative;
+    top: 15.625rem; /*250px;*/
+    left: 29.375rem; /*470px;*/
+    /* float: right; */
+}
+
+.about__hidden-text {
+	font-size: 12.25rem; /*196px;*/
+    text-align: center;
+	clear: both;
+}
+
+.about{
+--	background: url(../img/Photo.png) no-repeat center top;
+	/*width: 100vw;*/ 
+    width: 120rem; /*1920px;*/
+    margin: auto;
+}
+
+.about__bg-photo{
+	/*width: 100vw;*/ 
+    width: 120rem; /*1920px;*/
+    position: relative;
+    top: -4.375rem; /*-70px;*/
+    display: block;
+    margin: auto;
+}
+
+.about-text__background{
+    background-color: white;
+    float: left;
+    height: 37.5rem; /*600px;*/
+    width: 59.375rem; /*950px;*/
+    position: relative;
+    top: -25rem; /*-400px;*/
+    padding: 0 0 0 29.6875rem; /*0 0 0 475px;*/
+    box-sizing: border-box;
+}
+
+.about-text__title{
+	font-size: 1.125rem; /*18px;*/
+    font-weight: bold;
+    font-family: "Montserrat";
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    margin: 6.25rem 0 1.25rem 0; /*100px 0 20px 0;*/
+}
+
+.about-text__x-icon{
+	margin: 0 auto;
+    display: block;
+}
+.about-text__info{
+	font-size: 1.375rem; /*22px;*/
+    font-family: "Playfair Display";
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    line-height: 1.727;
+    text-align: left;
+    margin: 2.1875rem 3.75rem; /*35px 60px;*/
+}
+
+.about-text__link {
+	font-size: 1rem; /*16px;*/
+    font-family: "Montserrat";
+    color: rgb(0, 176, 255);
+    line-height: 1.2;
+    text-align: left;
+    margin: 2.1875rem 0 0 3.75rem; /*35px 0 0 60px;*/
+}
+
+.about__video {
+	float: left;
+    display: block;
+    margin: 0 0 0 4.375rem; /*0 0 0 70px;*/
+    position: relative;
+    top: -7.5rem; /*-120px;*/
+}
+
+.about__video img {
+  box-shadow: 1.25rem 2.1650625rem 3.125rem 0px rgba(0, 0, 0, 0.2); /*20px 34.641px 50px 0px rgba(0, 0, 0, 0.2);*/
+  height: 18.75rem;
+}
+
+
+#our_team img{
+	display: block;
+	margin: 0 auto 7.1875rem; /*0 auto 115px;*/
+}
+
+#blog img{
+	display: block;
+	margin: 0 auto 11.25rem; /*0 auto 180px;*/
+}
+
+#instagram{
+	display: block;
+	float: left;
+}
+
+#instagram_facebook{
+	display: table;
+	width: 100%;
+	height: 13.75rem; /*220px;*/
+}
+
+#facebook{
+    display: block;
+    float: left;
+    margin: 7.1875rem 0 0 3.125rem; /*115px 0 0 50px;*/
+}
+
+#footer img{
+	display: block;
+	margin: 0;
+	width: 73.125rem; /*1170px;*/
+}
+
