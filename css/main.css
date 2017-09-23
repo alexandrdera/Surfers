@@ -238,6 +238,7 @@ nav {
 	float: left;
 	padding: 0.9375rem 1.875rem; /*15px 30px;*/
 	margin: 0.9375rem 1.875rem;/*15px 30px;*/
+    border: none;
 }
 
 .info__link{
@@ -472,7 +473,26 @@ nav {
 
 .posts-block__post{
 	width: 270px;	
-	padding: 15px;
+	margin: 15px;
+}
+
+.posts-block__post:hover{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 30px 0px rgba(0, 0, 0, 0.2);
+}
+
+.posts-block__post p{
+	font-size: 16px;
+	font-family: "Raleway";
+	color: rgb(120, 120, 120);
+	line-height: 1.5;
+	text-align: left;
+	padding: 20px 25px;
+	margin: 0px;
+}
+
+.posts-block__post p:hover{
+  color: rgb(0, 34, 255);
 }
 
 .social{
