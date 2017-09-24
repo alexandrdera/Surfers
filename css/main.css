@@ -400,7 +400,7 @@ nav {
     top: -110px;	
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 	
 .team-card__btn {
@@ -432,6 +432,23 @@ nav {
     align-items: center;
     justify-content: center;
 	flex-direction: column;
+	margin: 0 -10px;
+}
+
+.team-card__user-photo{
+	border-radius: 50%;
+    padding: 2px;
+    background-color: white;
+}
+
+.team-card__user:hover{
+	background-color: rgb(0, 176, 255);
+	box-shadow: 10px 17.321px 50px 0px rgba(0, 0, 0, 0.3);
+}
+
+.team-card__user:nth-child(even){
+	position: relative;
+	top: 32px;
 }
 
 .team-card__info{
