@@ -446,6 +446,14 @@ nav {
 	box-shadow: 10px 17.321px 50px 0px rgba(0, 0, 0, 0.3);
 }
 
+.team-card__user:hover .team-card__user-name{
+	color: white;
+}
+
+.team-card__user:hover .team-card__info{
+	color: rgb(179, 231, 255);
+}
+
 .team-card__user:nth-child(even){
 	position: relative;
 	top: 32px;
