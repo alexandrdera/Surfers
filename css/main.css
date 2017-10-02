@@ -260,6 +260,8 @@ nav {
     display: block;
 	width: 3.9375rem; /*63px;*/
     height: 37.5rem; /*600px;*/
+	position: relative;
+    z-index: 2;
 }
 
 .bar a:first-child > img{
@@ -299,6 +301,7 @@ nav {
     position: relative;
     top: 15.625rem; /*250px;*/
     left: 29.375rem; /*470px;*/
+	z-index: 1;
 }
 
 .about__hidden-text {
