@@ -28,10 +28,12 @@ section{
 .heading{
 }
 
-.clearfix:after {
+.clearfix:before,
+.clearfix:after{
 	content:'';
 	display: table;
-	width: 100%;
+}
+.clearfix:after{
 	clear: both;
 }
 
